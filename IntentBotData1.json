@@ -1,0 +1,249 @@
+{
+    "intents": [
+      {
+        "tag": "How To Purchase A Pass",
+        "patterns": [
+            "How can I buy a parking pass?",
+            "Purchase a parking pass",
+            "Buy a pass without a ticket",
+            "Change to a weekly pass",
+            "How do I go about acquiring a parking permit?",
+            "What's the process for obtaining a parking pass?",
+            "Is there a way to secure a parking permit?",
+            "Can you guide me on purchasing a parking pass?",
+            "What are the steps for getting a parking pass?",
+            "Could you provide information on buying a parking permit?",
+            "Is there an option to buy a parking pass online?",
+            "How can I go about getting a pass for parking?",
+            "Are there different methods for obtaining a parking permit?"
+        ],
+        "responses": [
+            "To purchase a pass without a ticket, press the 'Pass' button on the screen. You can change the pass type to daily, weekly, or monthly by pressing the 'Next' button."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Lost/Missing Ticket",
+        "patterns": [
+            "I lost my parking ticket",
+            "What do I do if I can't find my ticket?",
+            "Charge for a lost ticket",
+            "I've misplaced my parking ticket, what's the procedure to address this?",
+            "What should I do if my parking ticket is lost or misplaced?",
+            "How can I report a lost parking ticket and get a replacement?",
+            "I can't find my parking ticket; can you guide me on the next steps?",
+            "What's the process for handling a lost parking ticket?",
+            "If my parking ticket is lost, what are the necessary actions to take?",
+            "Is there a fee associated with replacing a lost parking ticket?",
+            "I've lost my parking ticket; could you provide information on the replacement process?",
+            "What happens if I lose my parking ticket? Are there any penalties?",
+            "How can I obtain a replacement for a lost parking ticket?"
+        ],
+        "responses": [
+            "If you've lost your ticket, you can purchase a replacement from the pay station. Please note that you will be charged for the maximum time."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Ticket Is Unreadable",
+        "patterns": [
+            "My parking ticket is not readable",
+            "Ticket won't scan",
+            "Can't read my parking pass",
+            "The text on my parking ticket is illegible; what should I do?",
+            "I'm having trouble scanning my parking ticket; what are my options?",
+            "My parking pass won't scan; how can I address this issue?",
+            "The information on my parking ticket is not readable; what steps should I take?",
+            "I'm experiencing difficulties with the readability of my parking pass; any advice?",
+            "What do I do if the barcode on my parking ticket is not scanning properly?",
+            "There's an issue with the readability of my parking pass; how can I resolve it?",
+            "My parking ticket is not scanning; is there a solution for this problem?",
+            "The details on my parking pass are unclear; how can I get this sorted out?",
+            "I can't read the information on my parking ticket; what should be my next steps?"
+        ],
+        "responses": [
+            "Please try again and ensure the ticket is inserted properly. If it's still unreadable, try another exit or pay station. If the ticket still doesn't work, visit an attendant at the site office."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Have you been here more than 3 hours?",
+        "patterns": [
+            "Have I exceeded the parking time limit?",
+            "What if I've been here for over 3 hours?",
+            "How can I check if I've gone beyond the parking time limit?",
+            "Is there a way to find out if I've exceeded the designated parking time?",
+            "What happens if my parking duration exceeds the specified time limit?",
+            "How do I know if I've been parked for more than the allowed hours?",
+            "Is there a mechanism to check if I've overstayed the parking time limit?",
+            "What are the consequences if I've been parked here for longer than allowed?",
+            "How can I confirm whether I've surpassed the maximum parking duration?",
+            "What should I do if my parking time has exceeded the prescribed limit?",
+            "Is there a process to check if I've stayed beyond the permitted parking time?",
+            "What happens if my parked duration is longer than the posted time limit?"
+        ],
+        "responses": [
+            "If you've been parked for more than 3 hours, please purchase a lost ticket from the pay station and use that to exit."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Pass Is Unreadable",
+        "patterns": [
+            "My parking pass is not scanning",
+            "Can't read my monthly pass",
+            "I'm having trouble scanning my parking pass; what should I do?",
+            "My monthly pass won't scan; is there a solution to this issue?",
+            "The barcode on my parking pass is not scanning properly; any advice?",
+            "I can't get my parking pass to scan; what steps can I take to fix this?",
+            "There's an issue with the scanning of my monthly pass; how can I resolve it?",
+            "What should I do if my parking pass is not scanning at the entrance?",
+            "I'm experiencing difficulties with the readability of my monthly pass; any suggestions?",
+            "My parking pass is not scanning; are there troubleshooting steps I can follow?",
+            "The information on my monthly pass is not readable by the scanner; what can I do?",
+            "I can't read the details on my parking pass; how can I address this issue?"
+        ],
+        "responses": [
+            "If your parking pass is unreadable, please try another exit, or visit an attendant at the site office for assistance."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Does the screen state BAD I/O?",
+        "patterns": [
+            "The screen says BAD I/O, what should I do?",
+            "Error message BAD I/O",
+            "I'm receiving a BAD I/O error on the screen; any advice on how to proceed?",
+            "Encountered a BAD I/O message on my device; what steps can I take to resolve it?",
+            "The screen is displaying an error: BAD I/O. How can I troubleshoot this issue?",
+            "I need assistance with a BAD I/O error; what troubleshooting steps should I follow?",
+            "My device is showing an error message - BAD I/O. Any suggestions on what to do?",
+            "Seeing an error: BAD I/O on my screen; is there a recommended solution for this?",
+            "What could be the reason for a BAD I/O error, and how can I fix it?",
+            "Experiencing issues with my device, specifically a BAD I/O error; can you provide guidance?",
+            "The display is indicating a BAD I/O problem; how can I troubleshoot or resolve it?",
+            "Received an error message: BAD I/O. Any tips on resolving this technical issue?"
+        ],
+        "responses": [
+          "If the screen shows BAD I/O, please ensure you are following the proper entry and exit procedure. The pass must be used for both entry and exit."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Machine Issues",
+        "patterns": [
+            "Machine will not give out a ticket",
+            "Machine will not accept ticket",
+            "Machine will not accept credit card",
+            "Credit card is stuck in the machine",
+            "The machine is not dispensing a ticket; what should I do?",
+            "I'm having trouble getting a ticket from the machine; any advice?",
+            "The parking machine is not accepting my ticket; how can I resolve this?",
+            "I inserted my ticket, but the machine won't accept it; any solutions?",
+            "The machine is not giving out a ticket; is there a malfunction?",
+            "I'm experiencing difficulties with the ticket dispenser; any troubleshooting tips?",
+            "The parking machine is not responding to my credit card; what can I do?",
+            "My credit card is stuck in the machine; how should I proceed?",
+            "Having issues with the machine accepting credit cards; any suggestions?",
+            "The machine is not processing my credit card; any assistance available?"
+        ],
+        "responses": [
+            "If you're facing machine issues, please follow these steps: [Provide guidance based on the specific issue]. If the problem persists, visit an attendant at the site office."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Payment Issues",
+        "patterns": [
+            "Credit card placement",
+            "Banknote/bill placement",
+            "Change has not been dispensed",
+            "Missing receipt",
+            "Credit card is unreadable",
+            "Using a different credit card than was used for entry",
+            "Could you guide me on the correct placement of a credit card in the machine?",
+            "I need assistance with placing banknotes/bills in the parking machine; can you provide instructions?",
+            "The machine did not dispense change; is there a process for getting it sorted out?",
+            "I completed my transaction, but I'm missing the receipt; how can I obtain a copy?",
+            "My credit card is not being read by the machine; any suggestions on what to do?",
+            "The credit card I used for entry is different from the one I'm trying to use now; is that an issue?",
+            "Encountering difficulties with the credit card placement; any tips for a successful transaction?",
+            "I inserted banknotes, but the machine is not accepting them; what steps should I take?",
+            "Change has not been dispensed after my transaction; what should I do to get it?",
+            "The machine is indicating that my credit card is unreadable; how can I resolve this issue?"
+        ],
+        "responses": [
+            "For payment-related issues, please follow these steps: [Provide guidance based on the specific issue]. If you encounter any problems, visit an attendant at the site office."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Gate Issues",
+        "patterns": [
+          "Ticket was paid for, but the gate will not open",
+          "It does not say 'Paid' on the ticket?",
+          "Gate accepts ticket but does not open",
+          "Gate won't open and no ticket returned",
+          "Credit card inserted but gate will not open",
+          "I paid for the ticket, but the gate is not opening; what should I do?",
+"The ticket doesn't indicate 'Paid'; is there an issue with the payment?",
+"The gate accepts the ticket but doesn't open; any advice on resolving this?",
+"The gate won't open, and the machine didn't return the ticket; how can I proceed?",
+"Inserted my credit card, but the gate is not opening; any solutions?",
+"After payment, the gate is not opening; is there a step I might be missing?",
+"The gate isn't responding after I paid for the ticket; any troubleshooting tips?",
+"The ticket doesn't display 'Paid,' and the gate remains closed; what should I check?",
+"Inserted the credit card, but the gate won't open; any assistance available?",
+"Paid for the ticket, but the gate is still closed; any guidance on what might be wrong?"
+        ],
+        "responses": [
+          "If you're experiencing gate issues, please follow these steps: [Provide guidance based on the specific issue]. If the problem persists, visit an attendant at the site office."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag":"Apple Store Location",
+        "patterns": [
+          "Can you give me the location to Apple Store",
+          "Where is Apple Store",
+          "Apple Store location near me",
+          "What is the address of the nearest Apple Store?",
+"Can you provide directions to the closest Apple Store?",
+"I'm looking for the Apple Store; where is it located?",
+"Where can I find the Apple Store in this area?",
+"Give me the location details for the Apple Store, please.",
+"Could you tell me where the Apple Store is situated?",
+"Looking for directions to the Apple Store; can you help?",
+"Tell me the address of the Apple Store nearby.",
+"Where exactly is the Apple Store located around here?",
+"Can you guide me to the nearest Apple Store location?"
+        ],
+        "responses": [
+          "images\/AppleStore.jpeg"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag":"Nike Store Location",
+        "patterns": [
+          "Can you give me the location to Nike Store",
+          "Where is Nike Store",
+          "Nike Store location near me",
+          "What is the address of the nearest Nike Store?",
+"Can you provide directions to the closest Nike Store?",
+"I'm looking for the Nike Store; where is it located?",
+"Where can I find the Nike Store in this area?",
+"Give me the location details for the Nike Store, please.",
+"Could you tell me where the Nike Store is situated?",
+"Looking for directions to the Nike Store; can you help?",
+"Tell me the address of the Nike Store nearby.",
+"Where exactly is the Nike Store located around here?",
+"Can you guide me to the nearest Nike Store location?"
+        ],
+        "responses": [
+          "images\/Nike.jpeg"
+        ],
+        "context_set": ""
+      }
+    ]
+  }
